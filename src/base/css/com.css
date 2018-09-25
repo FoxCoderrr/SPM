@@ -1,0 +1,109 @@
+.adImgs .vux-slider > .vux-swiper{
+  height: 5.9rem!important;
+}
+/* 登录注册 */
+.logo{
+  padding: 0 18% 1.2rem;
+}
+.form .d_form{
+  padding: 0 18% 0;
+}
+.logo img {
+  margin-top: 2.8rem;
+  width: 2.6667rem;
+}
+.login input {
+  border: none;
+  outline: none;
+  width: 100%!important;
+}
+.login .weui-input{
+  height: 0.8rem!important;
+  line-height: 0.8rem!important;
+}
+.login .weui-cell__ft{
+  line-height: 0.2667rem!important;
+}
+.form .div {
+  border-bottom: 1px solid #ccc; /*no*/
+  height: 0.8rem;
+  margin-top: 0.1333rem;
+  position: relative;
+}
+.form .div .icon_left{
+  float: left;
+  font-size: 0.52rem;
+  line-height: 30px;
+  margin-right: 8px;
+  color: #839fff;
+}
+.form .weui-cell{
+  padding: 0!important;
+}
+.form .yzm img{
+  margin-top: 26px!important;
+  width: 30px!important;
+  height: 26px!important;
+}
+/* 矿机列表 */
+.mills ul {
+  padding: 0 2% 0;
+}
+.mills img {
+  display: block;
+  margin: 0 auto;
+  width: 2rem;
+  border-radius: 6px;
+}
+.mills li {
+  box-sizing: content-box;
+  padding: 0.2667rem 0 0.2667rem;
+  font-size: 0.32rem;
+}
+.mills li .d-flex{
+    padding-bottom: 0.1333rem;
+}
+.mills .iconfont {
+  font-size: 0.8rem;
+}
+.mills .desc {
+  position: relative;
+  padding-left: 0.1333rem;
+}
+.mills .desc div {
+  /* position: absolute; */
+  /* bottom: 14px; */
+}
+.mills .infobuy {
+    overflow: hidden;
+    padding-right: 0.2667rem;
+}
+.mills .infobuy span:nth-child(2){
+    line-height: 0.8rem;
+    margin-right: 0.1333rem;
+}
+
+.deals .sellBtn{
+  color: white;
+  background-color: #839fff;
+  line-height: 0.7467rem;
+  width: 44%;
+  text-align: center;
+  border-radius: 4px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.deals .sellBtn1{
+  background-color: #999;
+}
+.deals .self{
+  background-color: #999;
+}
+.deals li{
+  padding: 0.34rem;
+  border-bottom: 1px solid #315181;/*no*/
+  background: #2b2e4c;
+}
+
+
