@@ -320,7 +320,7 @@ export default {
                 method: "get"
               })
               .then(function(res) {
-                that.can = res.data.can.replace(/,/g, "");
+                that.can = parseFloat(res.data.can);
                 that
                   .$http({
                     url: "api/usual/money",
