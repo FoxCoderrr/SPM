@@ -68,6 +68,10 @@ export default new Router({
   //   }
   // },
   routes: [
+    {//页面重定向
+      path: "*",
+      redirect: "/"
+    },
     {
       path: '/',
       name: 'login',
