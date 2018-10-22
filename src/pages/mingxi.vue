@@ -68,7 +68,7 @@ export default {
       });
       error;
     };
-    that.getlist(0);
+    that.getlist(3);
   },
   methods: {
     back() {
