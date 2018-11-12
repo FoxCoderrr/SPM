@@ -14,6 +14,7 @@ import PhoneCode from '@/pages/phonecode'
 import SellInfo from '@/pages/sellinfo'
 import UpSellImg from '@/pages/upsellimg'
 import Mine from '@/pages/mine'
+import SpmTb from '@/pages/spmTb'
 import Usdt from '@/pages/usdt'
 import MyMills from '@/pages/myMills'
 import Run from '@/pages/run'
@@ -187,6 +188,14 @@ export default new Router({
         footer: BotNavs
       },
       meta:{index:5,none:'true'}
+    },
+    {
+      path: '/spmtb/',
+      name: 'spmtb',
+      components: {
+        main: SpmTb,
+      },
+      meta:{index:6}
     },
     {
       path: '/myMills/',

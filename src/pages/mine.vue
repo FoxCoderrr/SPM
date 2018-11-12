@@ -22,6 +22,9 @@
           <span class="fc00 fl">冻结SPM: <span class="fs3 fc11">{{umoney[2]}}</span></span>
         </p>
       </div>
+      <div>
+        <button class="btn" @click="withdraw">提币</button>
+      </div>
     </div>
       <ul class="nav-lists d-flex mt30">
           <li class="flex1">
@@ -151,6 +154,13 @@ export default {
       that.umoney.push(res.data.can + "");
       that.umoney.push(res.data.no + "");
     });
+  },
+  methods:{
+    withdraw(){
+      this.$router.push({
+        name:"spmtb"
+      })
+    }
   }
 };
 </script>
@@ -231,5 +241,13 @@ export default {
 }
 .top-con .ppp:last-child span{
   margin-bottom: 0.1rem;
+}
+.m-top .btn{
+  width: 4rem;
+    line-height: 0.7rem;
+    background: #26a4ff;
+    color: white;
+    border-radius: 4px;
+    margin: 0.2rem auto;
 }
 </style>
