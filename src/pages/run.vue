@@ -64,22 +64,13 @@ export default {
       .then(function(res) {
         if (res.data.code == -2) {
           that.$vux.toast.show({
-            text: that.$t("mymill.z"),
+            text: "获取失败",
             type: "warn",
             position: "middle",
             time: 1500
           });
-          that
-            .$http({
-              url: "api/mymills/runno",
-              method: "get",
-              params: {
-                id: that.$route.params.id
-              }
-            })
-            .then(function(res) {
-              that.$router.back();
-            });
+          that.$router.back();
+          
         } else {
           that.msg = res.data.msg;
           that.zong = res.data.msg.zong;
@@ -99,6 +90,7 @@ export default {
             }
             if (that.h == 0 && that.m == 0 && that.s == 0) {
               clearInterval(window.tt);
+              that.$router.back();
             }
           }, 1000);
         }
